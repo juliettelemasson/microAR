@@ -18,14 +18,45 @@
     
     sourceWidth="800" sourceHeight="600" displayWidth="1280" displayHeight="720">
 
-      
-        <a-marker type='barcode' value='0'>
+      <a-assets>
+        <img id="image" src="chaise.jpg">
+      </a-assets>
+
+        <a-marker type='barcode' value='35'>
+
+          <a-image src="#image"
+          rotation="270 0 0"
+          width="2"
+          height="2"></a-image>
    
-            <a-text value="Hello !" 
+            <a-text value="Hypnotisant" 
             side="double" position = "0 0 -1" rotation="270 0 0" 
             width="8"
             color="red" align="center" >
             </a-text>
+
+
+            <a-text value="Absorbant" 
+            side="double" position = "0 0,5 0,5" rotation="270 0 0" 
+            width="8"
+            color="red" align="center" >
+            </a-text>
+
+
+            <a-text value="Intriguant" 
+            side="double" position = "1 O,3 0,7" rotation="270 0 0" 
+            width="8"
+            color="red" align="center" >
+            </a-text>
+
+
+            <a-text value="Envoûtant" 
+            side="double" position = "O,5 O,8 0,2" rotation="270 0 0" 
+            width="8"
+            color="red" align="center" >
+            </a-text>
+
+
 
         </a-marker>
 
